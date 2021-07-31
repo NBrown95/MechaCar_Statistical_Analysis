@@ -22,3 +22,19 @@ The mean, median, variance, and standard deviation for all of the lots is shown 
 ![Lot Summary](https://user-images.githubusercontent.com/81498850/127725599-715af89d-8fb6-45dd-8e28-c99075258648.png)
 
 According to the results, the total variance is below 100 PSI for all lots. However, when we look at each lot separately, the variance for lot three is above 100 while the other lots had much lower variance. Therefore, manufacturing lot three does not meet the design specification required.
+
+## T-Tests on Suspension Coils
+
+The t-test comparing the total summary data to the population mean of 1500 PSI is shown below. 
+
+![Total t test](https://user-images.githubusercontent.com/81498850/127726937-25ee1033-73ea-4221-baf1-bd5d52b1c6af.png)
+
+As we can see, the p-value is 0.06 which is slightly higher than 0.05. Therefore, we can say that the sample mean and the population mean are statistically similar. The t-tests of each manufacturing lot is shown below.
+
+![Lot 1 t test](https://user-images.githubusercontent.com/81498850/127726949-d3feb2f5-18f9-4517-b39e-b91ab251667a.png)
+
+![Lot 2 t test](https://user-images.githubusercontent.com/81498850/127726965-3e2cded3-3d70-4367-b0f7-de43d4b60c19.png)
+
+![Lot 3 t test](https://user-images.githubusercontent.com/81498850/127726979-a4e6ec92-f30b-4885-be7f-f1f9cce89bdb.png)
+
+According to these results, manufacturing lots one and two have p-values above 0.05 so we would fail to reject the null hypothesis. Therefore, these means are statistically similar. However, lot three has a p-value of 0.04 which is below 0.05. This leads us to reject the null hypothesis and conclude that these means are statistically different. 
