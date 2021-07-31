@@ -38,3 +38,7 @@ As we can see, the p-value is 0.06 which is slightly higher than 0.05. Therefore
 ![Lot 3 t test](https://user-images.githubusercontent.com/81498850/127726979-a4e6ec92-f30b-4885-be7f-f1f9cce89bdb.png)
 
 According to these results, manufacturing lots one and two have p-values above 0.05 so we would fail to reject the null hypothesis. Therefore, these means are statistically similar. However, lot three has a p-value of 0.04 which is below 0.05. This leads us to reject the null hypothesis and conclude that these means are statistically different. 
+
+## Study Design: MechaCar vs Competition
+
+A popular metric that consumers may want to know is the average horsepower of their models and vehicles from MechaCar versus other competitors. The data we would have to collect is each model from MechaCar and each model from their number one competitor. Then, we would use the summarize() function in R to determine the mean horsepower for each car maker. The null hypothesis would be that the average horsepower in these car makers are the same. The alternative hypothesis would be that the average horsepower in these car makers are not the same. We would use a two sample t-test to test this hypothesis. This allows us to determine if two sample means are statistically different. If they are, we are interested in which car maker has higher or lower horsepower. 
