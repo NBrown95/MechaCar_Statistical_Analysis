@@ -1,5 +1,8 @@
-# MechaCar_Statistical_Analysis
-Using R to perform statistical analyses
+# MechaCar Analysis
+
+## Overview of Project
+
+For this project, we are analyzing data from AutosRUs’ newest prototype called the MechaCar. Specifically, we want to review the production data to ease the manufacturing team’s progess after several production problems. First, we will perform multiple linear regression analysis to identify which variables in the dataset predict the miles per gallon of MechaCar prototypes. Then, we will collect the summary statistics on the pounds per square inch of the suspension coils from the manufacturing lots. Next, we will run t-tests to determine if the manufacturing lots are statistically different from the mean population. Finally, we will design a statistical study to compare vehicle performance of MechaCar vehicles against other manufacturer’s vehicles.
 
 ## Linear Regression to Predict MPG
 
